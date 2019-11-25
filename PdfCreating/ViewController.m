@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "PdfCreating-Swift.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   PdfGenerate *pdfGenerate = [[PdfGenerate alloc] init];
+       [pdfGenerate printSome];
 }
 
 

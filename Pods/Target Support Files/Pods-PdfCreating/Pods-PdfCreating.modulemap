@@ -1,0 +1,6 @@
+framework module Pods_PdfCreating {
+  umbrella header "Pods-PdfCreating-umbrella.h"
+
+  export *
+  module * { export * }
+}
