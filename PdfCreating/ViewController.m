@@ -7,20 +7,22 @@
 //
 
 #import "ViewController.h"
-#import "PdfCreating-Swift.h"
 
+    
 @interface ViewController ()
-
 
 @end
 
 @implementation ViewController
-
+  
 - (void)viewDidLoad {
-    [super viewDidLoad];
+  //  [super viewDidLoad];
+    //NSString *data = @"test";
     // Do any additional setup after loading the view.
-   PdfGenerate *pdfGenerate = [[PdfGenerate alloc] init];
-       [pdfGenerate printSome];
+   // PdfGenerate *pdfGenerate = [[PdfGenerate alloc] init];
+    //PdfGenerate * pdfGenerate = [[PdfGenerate alloc]init];
+   // [pdfGenerate generatePdf:@"nishant"];
+  
 }
 
 

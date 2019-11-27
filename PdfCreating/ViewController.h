@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class PdfGenerate;
+//@class PdfGenerate;
 @interface ViewController : UIViewController
 
-
 @end
+
+
 

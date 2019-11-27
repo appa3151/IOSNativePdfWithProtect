@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D8D5C06558BFFB1BC1F27C5 /* Pods_PdfCreating_PdfCreatingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2BFF42E0A2BDB7F9A96F10 /* Pods_PdfCreating_PdfCreatingUITests.framework */; };
+		8B420E69238D365E001AA54C /* PdfCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B420E68238D365E001AA54C /* PdfCreate.m */; };
 		8BB62332238BCD34002BBD2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB62331238BCD34002BBD2B /* AppDelegate.m */; };
 		8BB62335238BCD34002BBD2B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB62334238BCD34002BBD2B /* SceneDelegate.m */; };
 		8BB62338238BCD34002BBD2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB62337238BCD34002BBD2B /* ViewController.m */; };
@@ -43,6 +44,8 @@
 		551FE2590A9117EA912F8E09 /* Pods_PdfCreatingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PdfCreatingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7588DEAF53504E14293984E6 /* Pods-PdfCreatingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PdfCreatingTests.debug.xcconfig"; path = "Target Support Files/Pods-PdfCreatingTests/Pods-PdfCreatingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81E241690D1930927A4B9448 /* Pods-PdfCreatingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PdfCreatingTests.release.xcconfig"; path = "Target Support Files/Pods-PdfCreatingTests/Pods-PdfCreatingTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B420E67238D365E001AA54C /* PdfCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PdfCreate.h; sourceTree = "<group>"; };
+		8B420E68238D365E001AA54C /* PdfCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PdfCreate.m; sourceTree = "<group>"; };
 		8BB6232D238BCD33002BBD2B /* PdfCreating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PdfCreating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB62330238BCD34002BBD2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BB62331238BCD34002BBD2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				8BB62342238BCD34002BBD2B /* main.m */,
 				8BB62366238BCD47002BBD2B /* PdfGenerate.swift */,
 				8BB62365238BCD47002BBD2B /* PdfCreating-Bridging-Header.h */,
+				8B420E67238D365E001AA54C /* PdfCreate.h */,
+				8B420E68238D365E001AA54C /* PdfCreate.m */,
 			);
 			path = PdfCreating;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 			files = (
 				8BB62338238BCD34002BBD2B /* ViewController.m in Sources */,
 				8BB62332238BCD34002BBD2B /* AppDelegate.m in Sources */,
+				8B420E69238D365E001AA54C /* PdfCreate.m in Sources */,
 				8BB62343238BCD34002BBD2B /* main.m in Sources */,
 				8BB62367238BCD47002BBD2B /* PdfGenerate.swift in Sources */,
 				8BB62335238BCD34002BBD2B /* SceneDelegate.m in Sources */,

@@ -3,11 +3,11 @@
 //
   
 #import <Foundation/Foundation.h>
-
+#import "PdfCreate.h"
+       
 @class PdfGenerate;
-     
 @interface PdfGenerate : NSObject
-
--(void)printSome;
+-(void)generatePdf;
 
 @end
+    
